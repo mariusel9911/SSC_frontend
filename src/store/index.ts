@@ -13,7 +13,7 @@ const useStore = create<Store>((set) => ({
   requestLoading: false,
   setAuthUser: (user) => set((state) => ({ ...state, authUser: user })),
   setRequestLoading: (isLoading) =>
-    set((state) => ({ ...state, requestLoading: isLoading })),
+      set((state) => ({ ...state, requestLoading: isLoading })),
 }));
 
 export default useStore;
